@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{19CF7ACC-1449-4423-9384-5976580D77CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5B3D1663-2200-4E08-A44F-56BD9EC9F2FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{670255F8-5B54-4F67-8887-61D6A5C597DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTest.Domain", "OrderTest.Domain\OrderTest.Domain.csproj", "{3B9E0D76-EAD1-418B-8B69-5D6FC27DD7C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTest.Application", "OrderTest.Application\OrderTest.Application.csproj", "{B18E61FA-874D-4365-993C-5B15FCF27D35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTest.Persistence", "OrderTest.Persistence\OrderTest.Persistence.csproj", "{40A3EBA7-BC3D-4836-9F9C-F3659B343A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTest.API", "OrderTest.API\OrderTest.API.csproj", "{9A82956D-8D00-4129-9869-534ED913EEF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E40A77B-2C4F-469F-ACFB-6E8EFC47EC07}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B9E0D76-EAD1-418B-8B69-5D6FC27DD7C5} = {19CF7ACC-1449-4423-9384-5976580D77CC}
+		{B18E61FA-874D-4365-993C-5B15FCF27D35} = {19CF7ACC-1449-4423-9384-5976580D77CC}
+		{40A3EBA7-BC3D-4836-9F9C-F3659B343A41} = {5B3D1663-2200-4E08-A44F-56BD9EC9F2FB}
+		{9A82956D-8D00-4129-9869-534ED913EEF7} = {670255F8-5B54-4F67-8887-61D6A5C597DA}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B9E0D76-EAD1-418B-8B69-5D6FC27DD7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9E0D76-EAD1-418B-8B69-5D6FC27DD7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9E0D76-EAD1-418B-8B69-5D6FC27DD7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9E0D76-EAD1-418B-8B69-5D6FC27DD7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18E61FA-874D-4365-993C-5B15FCF27D35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18E61FA-874D-4365-993C-5B15FCF27D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18E61FA-874D-4365-993C-5B15FCF27D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18E61FA-874D-4365-993C-5B15FCF27D35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A3EBA7-BC3D-4836-9F9C-F3659B343A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A3EBA7-BC3D-4836-9F9C-F3659B343A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A3EBA7-BC3D-4836-9F9C-F3659B343A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A3EBA7-BC3D-4836-9F9C-F3659B343A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A82956D-8D00-4129-9869-534ED913EEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A82956D-8D00-4129-9869-534ED913EEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A82956D-8D00-4129-9869-534ED913EEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A82956D-8D00-4129-9869-534ED913EEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
